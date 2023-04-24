@@ -1,3 +1,1 @@
 # beta_kurs
-
-endring
