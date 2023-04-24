@@ -1,3 +1,13 @@
-# implement an add function that uses recursion
-def add(x, y):
-    return x + y
+import random
+
+
+def add_numbers(num1, num2):
+    if num1 == 0:
+        return num2
+    if num2 == 0:
+        return num1
+    else:
+        return add_numbers(num1-1, num2-1) + 2
+
+
+print(add_numbers(10, 4))
