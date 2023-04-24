@@ -1,2 +1,1 @@
 # beta_kurs
-
